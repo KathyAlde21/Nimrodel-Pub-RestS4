@@ -1,0 +1,38 @@
+/* TAMAÑO NAVBAR */
+@media screen and (max-width: 500px){
+    div.nav {
+        height: 400px;
+        width: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 500px){
+    div.pub {
+        height: 400px;
+        width: 100%;
+        float: inline-end;
+    }
+  }
+
+  /* TAMAÑO CUADRO AZUL */
+.azul{
+    background-color: blue;
+}
+@media screen and (max-width: 500px){
+    div.azul {
+        height: 100px;
+        width: 100%;
+    }
+  }
+
+/* TAMAÑO CUADRO GRIS */
+.gris{
+    background-color: grey;
+}
+@media screen and (max-width: 500px){
+    div.gris {
+        height: 300px;
+        width: 100%;
+    }
+  }

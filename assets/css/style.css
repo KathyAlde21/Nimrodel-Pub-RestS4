@@ -1,0 +1,146 @@
+*{
+    color: #070707;
+}
+h5, h6, h4, p{
+    text-align: center;
+}
+h4, label{
+    color: white;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* NAVBAR */
+nav{
+    background-image:  url(../img/fondo-navbar.jpg);
+    background-position: right bottom, left top;
+    text-align: left;
+    display: flex;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+.nav-link{
+    color: rgb(165, 164, 164);
+    text-align: left;
+    max-height: min-content;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* TITULO */
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.subtitulo{
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
+.pub{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: center;
+    font-style: normal;
+    color: rgb(89, 89, 89);
+}
+
+/* ------------------------------------------------------------------ */
+/* Productos y Tablas*/
+.row{
+    align-self: center;
+    padding: 7% 0% 0% 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ------------------------------------------------------------------ */
+/* Productos */
+.card-header{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    /* width: 30%; */
+    /* height: 100%; */
+    align-content: center;
+}
+
+@media screen and (max-width: 400px){
+    div.card-header {
+        width: 18rem;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 401px){
+    div.card-header {
+        width: 18rem;
+    }
+  }
+  @media screen and (max-width: 850px) and (min-width: 601px){
+    div.card-header {
+        width: 100%;
+    }
+  }
+  @media screen and (min-width: 851px) {
+    div.card-header {
+        width: 100%;
+    }
+  }
+
+/* ------------------------------------------------------------------ */
+/* Tablas Comuniquemonos y Reserva */
+
+@media screen and (max-width: 400px){
+    div.form {
+        display:none;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 401px){
+    div.form {
+        display:none;
+    }
+  }
+  @media screen and (max-width: 850px) and (min-width: 601px){
+    div.form {
+        width: 100%;
+    }
+  }
+  /* @media screen and (min-width: 851px) {
+    div.form {
+        width: ;
+    }
+  } */
+
+
+#form-comuniquemonos{
+    /* padding: 2% 0% 0% 0%; */
+    width: 30%;
+    /* border: 2px solid white;
+    border-radius: 10px; */
+}
+#formulario{
+    /* padding: 5% 0% 2% 0%; */
+    width: 30%;
+    /* border: 2px solid white;
+    border-radius: 25px; */
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* footer */
+.card-footer{
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: large;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
